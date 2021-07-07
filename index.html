@@ -11,6 +11,7 @@
   <body>
     <header class="header">
       <img class="logo" src="./images/learnabit-logo.png" alt="learn-a-bit logo"/>
+      <div>presents...</div>
       <h1 class="header__title">Learn-a-Git</h1>
     </header>
 
@@ -22,22 +23,67 @@
           <h3 class="meta__head">Meta</h3>
 
           <article class="meta__definition">
-            <h4>meta <span>&bsol me-tə &bsol</span></h4>
-            <p>informal : showing or suggesting an explicit awareness of itself or oneself as a member of its category : cleverly self-referential</p>
+            <h4 class="definition__head">meta <span class="definition__phon">\ `me-tə \</span></h4>
+            <p class="definition__body">informal : showing or suggesting an explicit awareness of itself or oneself as a member of its category : cleverly self-referential</p>
           </article>
           
-          <p>
+          <p class="p">
             This guide is being written with the assumption that you are using Visual Studio Code or that you are using the command line interface for git, and that your repository 
-            is residing on GitHub. If this is not the case, then the configuration and set-up sections may not be of value, but the principles covered later in the guide should 
+            is residing on GitHub. If this is not the case, then the configuration and set-up sections may not be of too much value, but the principles covered later in the guide should 
             still be applicable.
           </p>
 
+          <p class="p">
+            There are a number of topics that are sufficiently covered by other articles or guides. Links to these guides are provided within this document as there is no need to 
+            reinvent the wheel.
+          </p>
+
+          <p class="p">
+            If you find anything inaccurate, out of date, unclear, or missing from this guide, please let us know. Just drop into the Learn-a-bit channel on Discord and let us know 
+            what's up.
+          </p>
+
+          <p class="p">
+            If you would like a little bit more in-depth explanation on a topic, many of the sections have a <span class="whathigo">WhaTHiGO</span> button at the bottom. This will open a pane that clarifies 
+            <span class="whathigo">What The Heck Is Going</span> On a little. These sections are optional but definitely worth a look at for better understanding.
+          </p>
         </section>
 
         <section class="basics__set-up section-wrapper">
-          <h3 class="set-up__head">Git-ing Set Up</h3>
-          <p>
-            The very first thing you will need to do is install git, VS Code, and configure There are plenty of resources available to help you set up git on your computer.
+          <h3 class="h3">Git-ing Set Up</h3>
+          
+          <h4 class="h4">Git Installing</h4>
+          <p class="p">
+            The very first thing you will need to do is install git, VS Code (or the editor of your choice), and configure them. There are plenty of resources available to help you set up git on your computer. 
+            Below are links to articles that will help you get git configured to work with your IDE. As there are too many to mention in the scope of this guide, only a few of the most 
+            relevant to web development are listed.
+          </p>
+
+          <nav class="set-up__nav">
+            <ul>
+              <li>
+                <a href="https://www.jcchouinard.com/install-git-in-vscode/">Visual Studio Code</a>
+              </li>
+
+              <li>
+                <a href="https://packitforwarding.com/index.php/2019/06/26/how-to-setup-git-github-and-atom/">Atom</a>
+              </li>
+
+              <li>
+                <a href="https://smoothprogramming.com/sublime-text/how-to-use-git-in-sublime-text/">Sublime</a>
+              </li>
+
+              <li>
+                <a href="#">IDE</a>
+              </li>
+            </ul>
+          </nav>
+
+          <h4 class="h4">Git Bash</h4>
+          <p class="p">
+            If you're on a Windows device and will be using the terminal within your editor, it may be a good idea to also install Git Bash. Windows users can perform command-line 
+            operations using the Command Prompt or Powershell, and some developers swear by them, but Git Bash works much more like what you would see on a Mac or Linux environment. 
+            It is specifically designed to work with git and is easy to use. 
           </p>
         </section>
       </section>
